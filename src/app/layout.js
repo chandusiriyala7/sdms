@@ -14,9 +14,10 @@ export default function Layout({ children }) {
         <link rel="icon" href="./images/logo.jpeg" />
       </head>
       <body>
-        {children}
-        <FixedChatIcon />
-        <LenisProvider/>
+        <LenisProvider>
+          {children}
+          <FixedChatIcon />
+        </LenisProvider>
       </body>
     </html>
   );

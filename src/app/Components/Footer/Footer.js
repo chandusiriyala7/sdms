@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="footer-main">
         <ScrollFromLeft>
           <ScrollRevealText>
-            <p className="footer-head">
+            <p className="footer-head" ref={headingRef}>
               <span>connect with us</span>
               {/* <br /> <span>across the</span> <br />{" "}
             <span>cosmos</span> */}

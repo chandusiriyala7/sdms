@@ -35,6 +35,7 @@ const ScrollRevealText = ({ children }) => {
     <motion.div
       ref={ref}
       style={{
+        position: "relative",
         width: "fit-content",
         paddingTop: "10px",
         paddingRight: "10px",
@@ -48,6 +49,7 @@ const ScrollRevealText = ({ children }) => {
         backgroundColor: isDarkMode ? "#808080" : "#DCE1E1",
         backgroundSize: backgroundSize,
         WebkitBackgroundClip: "text",
+        backgroundClip: "text",
         color: "transparent",
         marginTop: "-25px",
       }}

@@ -1,6 +1,6 @@
-"use client"; // For client-side animations with GSAP
-import React, { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+"use client";
+import React, { useRef } from "react";
+// Removed unused gsap import
 import Stats from "../Stats/Stats";
 import Link from "next/link";
 import "./Services.css";
@@ -127,8 +127,7 @@ const Services = () => {
   };
 
   const headingRef = useRef(null);
-  const cardsRef = useRef([]);
-  const WhoWeAreRef = useRef([]);
+  // Removed unused refs
 
   return (
     <section className="services-container" id="our-services">
@@ -138,7 +137,7 @@ const Services = () => {
           <div className="who-we-are-main-heading">
             <ScrollFromLeft>
               <ScrollRevealText>
-                <h2 className="who-are-we-head" ref={WhoWeAreRef}>
+                <h2 className="who-are-we-head">
                   <span>who</span>
                 </h2>
               </ScrollRevealText>
@@ -146,7 +145,7 @@ const Services = () => {
 
             <ScrollFromRight>
               <ScrollRevealText>
-                <h2 className="who-are-we-head" ref={WhoWeAreRef}>
+                <h2 className="who-are-we-head">
                   <span> we are</span>
                 </h2>
               </ScrollRevealText>

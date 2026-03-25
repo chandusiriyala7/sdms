@@ -73,7 +73,7 @@ const testimonials = [
   },
   {
     name: 'Dr. Vimaladevi',
-    text: 'The digital marketing team delivered outstanding results for my LinkedIn and company website, driving visible growth and engagement. Their data-driven strategies increased our organic reach and improved overall brand visibility. I highly recommend their services to anyone seeking impactful digital marketing solutions.',
+    text: 'The digital marketing team delivered outstanding results for my LinkedIn and company website, driving visible growth and engagement. I highly recommend their services to anyone seeking impactful digital marketing solutions.',
     position: 'Doctor',
     image: './images/vimaladevi.png'
   }

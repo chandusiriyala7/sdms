@@ -6,7 +6,8 @@ import Lenis from "@studio-freight/lenis";
 export default function LenisProvider({ children }) {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.7,
+      duration: 1.2,
+      lerp: 0.1,
       smooth: true,
     });
 

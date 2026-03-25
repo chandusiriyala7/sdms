@@ -8,6 +8,7 @@ const ScrollFromLeft = ({ children }) => {
     <motion.div
       ref={ref}
       style={{
+        position: "relative",
         x: translateX,
       }}
     >

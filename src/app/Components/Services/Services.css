@@ -8,6 +8,7 @@
   background: linear-gradient(90deg, #5cefef 50%, #252525 0);
   background-size: 200% 100%;
   -webkit-background-clip: text;
+  background-clip: text;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +37,7 @@
   /* Container takes up 80% of viewport width */
   margin: 0 auto;
   /* Centers the container */
+  position: relative;
 }
 
 .who-are-we {
@@ -63,6 +65,7 @@
   padding: 5px;
   box-sizing: border-box;
   -webkit-background-clip: text;
+  background-clip: text;
   background-repeat: no-repeat;
   background-color: #717171 !important;
   background-size: 0% 100%;
@@ -288,6 +291,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 /* Image Section */
@@ -309,7 +313,7 @@
   gap: 1rem;
   flex: 1;
   /* Adds spacing between text elements */
-
+  position: relative;
 }
 
 /* Text Head */
