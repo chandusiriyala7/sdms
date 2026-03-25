@@ -81,6 +81,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   scroll-behavior: auto;
+  overflow-x: hidden;
 }
 
 body {

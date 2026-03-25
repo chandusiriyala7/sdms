@@ -242,7 +242,7 @@ body.dark-mode .down-arrow {
 @media (max-width:764px) {
 
   .home-heading {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin-top: 0vh;
     margin-bottom: 10px;
     line-height: 1;
@@ -303,4 +303,10 @@ body.dark-mode .contact-button {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+}
+
+@media (max-width: 375px) {
+  .home-heading {
+    font-size: 1.8rem;
+  }
 }
