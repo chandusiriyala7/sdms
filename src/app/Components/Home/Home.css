@@ -204,8 +204,8 @@ body.dark-mode .down-arrow {
   justify-content: space-around;
   gap: 40vw;
   margin-top: 25px;
-  position: absolute;
-  bottom: 30px;
+  position: relative;
+  bottom: -50px;
   width: 100%;
   opacity: 0;
   transform-origin: bottom;
@@ -294,7 +294,7 @@ body.dark-mode .down-arrow,
 body.dark-mode .explore-button,
 body.dark-mode .contact-button {
   color: #ffffff;
- 
+
 }
 
 .home-main {

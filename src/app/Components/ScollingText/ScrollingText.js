@@ -4,9 +4,7 @@ import React, { useState, useEffect } from "react";
 import "./ScrollingText.css";
 
 const ScrollingText = () => {
-  const firstLine = "- beyond boundaries - beyond boundaries "
-    .repeat(30)
-    .trim();
+const firstLine = ("- beyond boundaries - beyond boundaries - ").repeat(30);
   const secondLine = "- venture beyond the digital horizon ".repeat(30).trim();
 
   const [position, setPosition] = useState({ x: -100, y: -100 });
@@ -53,11 +51,13 @@ const ScrollingText = () => {
 
       {/* Scrolling Text */}
       <div className="scrolling-text">
-        <p className="scroll-right">{firstLine}</p>
+        <p className="scroll-right">{firstLine} </p>
       </div>
       <div className="scrolling-text">
         <p className="scroll-left">{secondLine}</p>
       </div>
+
+       
     </div>
   );
 };
