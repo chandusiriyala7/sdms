@@ -54,7 +54,7 @@
     font-family: 'Syne', serif;
     text-transform: none;
 
-    &:hover a{
+    &:hover a {
         color: #fed700;
     }
 }
